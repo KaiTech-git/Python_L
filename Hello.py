@@ -1,2 +1,5 @@
-# TODO do it later
-print('Hello!')
+# TOODO
+
+print("hallo")
+print("Result is:" + str(2020))
+
