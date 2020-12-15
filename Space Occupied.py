@@ -1,7 +1,7 @@
 
 def size_r(path, size =0):
     arr = os.listdir(path)
-    for x in range(len(arr)-1):
+    for x in range(len(arr)):
         if os.path.isfile (path + "/" + arr[x]):
            size = size + os.stat(path + "/" + arr[x]).st_size
         else:
