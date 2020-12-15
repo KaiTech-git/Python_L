@@ -98,3 +98,5 @@ E= EquilateralTriangle(5)
 print(E)
 print(E.calc_surface())
 print(E.perimeter())
+
+Triangle.
